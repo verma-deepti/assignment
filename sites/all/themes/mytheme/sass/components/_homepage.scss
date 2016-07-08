@@ -1,0 +1,38 @@
+.page-tile {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.at-home {
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Breadcrumb style */
+.breadcrumb{
+  clear: both;
+  display:inline-block;
+  margin: 10px 0;
+  a {
+    display:inline-block;
+    padding:0 5px;
+  }
+}
+.breadcrumb-title {
+  display:inline;
+}
+
+/* Random image block style on front page*/
+.view-random-images {
+  max-width: 760px;
+  margin: auto;
+
+  .view-content {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  .views-row {
+    width: 220px;
+    height: 190px;
+  }
+}
